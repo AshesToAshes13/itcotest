@@ -1,0 +1,11 @@
+.header__image {
+    fill: white;
+    
+    height: 180px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__image {
+        height: 120px;
+    }
+}

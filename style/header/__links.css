@@ -1,0 +1,27 @@
+.header__links-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    max-width: 740px;
+    text-align: center;
+
+}
+
+.header__links-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 320px) {
+    .header__links-desktop{
+        display: none;
+    } 
+
+    .header__links-mobile{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

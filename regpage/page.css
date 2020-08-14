@@ -1,0 +1,13 @@
+@import url(./main/main.css);
+
+.page {
+    font-family: OpenSans;
+}
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

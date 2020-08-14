@@ -1,0 +1,14 @@
+@import url(./__links.css);
+@import url(./__link.css);
+@import url(./__image.css);
+@import url(./__title.css);
+@import url(./__btn.css);
+@import url(./__nav.css);
+
+.header {
+    background-image: url(./headerBackgroungImage.jpg);
+    height: auto;
+    background-size: cover;
+}
+
+

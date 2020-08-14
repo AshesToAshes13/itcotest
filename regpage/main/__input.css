@@ -1,0 +1,10 @@
+.main__input {
+    margin-bottom: 15px;
+    background: none;
+    color: black;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+

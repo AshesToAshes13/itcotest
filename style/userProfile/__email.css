@@ -1,0 +1,13 @@
+.userProfile__email {
+    font-family: OpenSans;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 320px) {
+    .userProfile__email {
+        max-width: 320px;
+    }
+}

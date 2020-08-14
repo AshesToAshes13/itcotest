@@ -1,0 +1,21 @@
+.main__button {
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.main__button-disabled {
+    opacity: 0.6;
+}
+
+.main__button-active {
+    opacity: 1;
+}
+
+.main__button:active {
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+}

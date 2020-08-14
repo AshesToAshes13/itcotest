@@ -1,0 +1,15 @@
+@import url(./__form.css);
+@import url(./__input.css);
+@import url(./__button.css);
+@import url(./__switch.css);
+@import url(./__allert.css);
+@import url(./__title.css);
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+    padding-top: 100px;
+}
+

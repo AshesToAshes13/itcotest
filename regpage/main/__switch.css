@@ -1,0 +1,13 @@
+.main__switch {
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.main__switch:active {
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+}

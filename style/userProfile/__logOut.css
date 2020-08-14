@@ -1,0 +1,15 @@
+.userProfile__logOut {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: OpenSans;
+    font-size: 18px;
+    outline: none;
+    opacity: 1;
+}
+
+.userProfile__logOut:active {
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+}

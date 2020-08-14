@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="./style/normalize.css">
+        <link rel="stylesheet" href="./regpage/page.css">
+    </head>
+    <body>
+        <main class="page">
+            <section class="main">
+                <h2 class="main__allert" style="display: none;">Еще не все </h2>
+                <form action="" class="main__form" name="reg">
+                    <h2 class="main__title">Регистрация</h2>
+                    <input type="text" class="main__input" name="email" placeholder="Email">
+                    <input type="password" class="main__input" name="pass" placeholder="Пароль">
+                    <input type="password" class="main__input" name="reppass" placeholder="Повторите пароль">
+                    <button class="main__button main__button-disabled" name="btn" disabled>Зарегестрироваться</button>
+                    
+                </form>
+                <form action="" class="main__form" name="auth" style="display: none;">
+                    <h2 class="main__title">Авторизация</h2>
+                    <input type="text" class="main__input" name="email" placeholder="Email">
+                    <input type="password" class="main__input" name="pass" placeholder="Пароль">
+                    <button class="main__button main__button-disabled" name="btn" disabled>Войти</button>
+                </form>
+                <button class="main__switch">Уже зарагестрированный? Войти</button>
+            </section>
+        </main>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+
+        <script>
+            var firebaseConfig = {
+                apiKey: "AIzaSyAIRoJ4PtfLRHJxvrFbK-53D6auCkhu2B8",
+                authDomain: "itcotest-624a5.firebaseapp.com",
+                databaseURL: "https://itcotest-624a5.firebaseio.com",
+                projectId: "itcotest-624a5",
+                storageBucket: "itcotest-624a5.appspot.com",
+                messagingSenderId: "1035777167336",
+                appId: "1:1035777167336:web:60083b2f86a69509a71e5d",
+                measurementId: "G-XQSGW5L5LW"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            const auth = firebase.auth();
+        </script>
+        <script src="./scripts/regScripts.js"></script>
+    </body>

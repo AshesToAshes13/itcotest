@@ -1,0 +1,13 @@
+.main__image {
+    width: 363px; 
+    height: 363px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 320px) {
+    .main__image {
+        width: 270px;
+        height: 270px;
+    }
+}

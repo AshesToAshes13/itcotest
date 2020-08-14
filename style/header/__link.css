@@ -1,0 +1,39 @@
+.header__link{
+    text-decoration: none;
+    color: white;
+    font-family: OpenSans;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 85px;
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+    height: 25px;
+    cursor: pointer;
+}
+
+.header__link:hover {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__link{
+        text-decoration: none;
+        color: white;
+        font-family: OpenSans;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        opacity: 1;
+        transition: 0.4s ease-in-out;
+        height: 25px;
+        cursor: pointer;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+
+    .header__link:last-of-type {
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,13 @@
+.main__images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 363px);
+    grid-gap: 25px 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+@media screen and (max-width: 320px) {
+    .main__images {
+        grid-template-columns: repeat(auto-fill, 270px);
+    }
+}

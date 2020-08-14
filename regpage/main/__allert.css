@@ -1,0 +1,6 @@
+.main__allert {
+    background-color: rgba(0, 255, 0, 0.3);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: normal;
+}

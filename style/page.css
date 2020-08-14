@@ -1,0 +1,22 @@
+@import url(./header/header.css);
+@import url(./main/main.css);
+@import url(./userProfile/userProfile.css);
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        max-width: 320px;
+    }
+}
